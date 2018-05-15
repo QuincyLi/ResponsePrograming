@@ -22,7 +22,7 @@ module.exports = {
             }
         ]
     },
-    devtool: 'source-map',
+    devtool: 'inline-source-map',
     plugins: [
         new HtmlWebPackPlugin({
             template: "./src/index.html",
